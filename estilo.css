@@ -1,0 +1,419 @@
+    h1 {
+    width: 50%;
+    height: 45px;
+    margin-left: 300px;
+    color: #40ffed;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: center;
+    }
+
+   body {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+   }
+
+   * {
+    margin-left: 0;
+    padding: 0;
+   }
+
+   .menu {
+    list-style: none;
+    border: 1px solid #191970;
+    float: left;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 0;
+    margin-left: 482px;
+   }
+
+   .menu li {
+    position: relative;
+    float: left;
+    border-right: 1px solid #191970;
+   }
+
+   .menu li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+   }
+
+   .menu li a:hover {
+    background: #333;
+    color: #fff;
+    -moz-box-shadow: 0 3px 10px 0 #CCC;
+    -webkit-box-shadow: 0 3px 10px 0 #ccc;
+    text-shadow: 0px 0px 5px #fff;
+   }
+
+   .menu li ul {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: #fff; 
+    display: none;
+   }
+
+   .menu li:hover ul,
+   .menu li.over ul {
+    display: block;
+   }
+
+   .menu li ul li {
+    border: 1px solid #c0c0c0;
+    display: block;
+    width: 150px;
+   }
+
+    .botão1{
+      /* Rectangle 1 */
+      position: relative;
+      width: 129px;
+      height: 129px;
+      margin-left: 5px;
+      cursor: pointer;
+
+      background: #FFFF00;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 14px;
+      background:url(./Pelúcia.jpg);
+      background-size: 130px;
+   }
+  
+     .botão2{
+      /* Rectangle 1 */
+      position: relative;
+      width: 129px;
+      height: 129px;
+      margin-left: 10px;
+      cursor: pointer;
+
+      background: #FFFF00;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 14px;
+      background-image: url(./Boneco\ de\ Feltro.jpg);
+      background-size: 130px;
+    }
+
+    .botão3{
+      /* Rectangle 1 */
+      position:relative;
+      width: 129px;
+      height: 129px;
+      margin-left: 10px;
+      cursor: pointer;
+
+      background: #FFFF00;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 14px;
+      background-image: url(./amigorumi.jpg);
+      background-size: 130px;
+    }
+    .div{
+    margin: 0 0 0 12px;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: justify;
+    }
+   .div1{
+   margin: 0 0 0 12px;
+   color: purple;
+   font-family: cursive;
+   font-size: medium;
+   text-align: justify;
+    }
+
+    .h4{
+      margin-top: 75%;
+      text-decoration: underline;
+     }
+
+    .h4b{
+      margin-top: 75%;
+      color: white;
+      text-decoration: underline;
+    }
+
+    .Ba{
+      margin-left: 230px;
+      position:relative;
+      width: 129px;
+      height: 129px;
+      cursor: pointer;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 14px;
+      background-size: 130px;
+      background-image: url(./Produto1.jpg);
+    }
+
+    .Bb{
+      margin-left: 10px;
+      position:relative;
+      width: 129px;
+      height: 129px;
+      cursor: pointer;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 14px;
+      background-size: 130px;
+      background-image: url(./Produto2.jpg);
+    }
+
+    .Bc{
+      margin-left: 10px;
+      position:relative;
+      width: 129px;
+      height: 129px;
+      cursor: pointer;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 14px;
+      background-size: 130px;
+      background-image: url(./Produto3.jpg);
+    }
+
+    .Bd{
+      margin-left: 10px;
+      position:relative;
+      width: 129px;
+      height: 129px;
+      cursor: pointer;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 14px;
+      background-size: 130px;
+      background-image: url(./Produto4.png);
+    }
+
+    .Be{
+      margin-left: 10px;
+      position:relative;
+      width: 129px;
+      height: 129px;
+      cursor: pointer;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 14px;
+      background-size: 170px;
+      background-image: url(./Produto5.jpg);
+    }
+
+    .Bf{
+      margin-left: 10px;
+      position:relative;
+      width: 129px;
+      height: 129px;
+      cursor: pointer;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 14px;
+      background-size: 130px;
+      background-image: url(./Produto6.jpg);
+    }
+
+    .under1{
+      margin-top: 83%;
+      text-decoration: underline;
+      color: blue;
+    }
+
+    .under2{
+      margin-top: 83%;
+      text-decoration: underline;
+      color: #000000
+    }
+
+    .under3{
+      margin-top: 83%;
+      text-decoration: underline;
+      color: darkmagenta;
+    }
+
+    .under4{
+      margin-top: 83%;
+      text-decoration: underline;
+    }
+
+    .under5{
+      margin-top: 83%;
+      text-decoration: underline;
+    }
+
+    .under6{
+      margin-top: 83%;
+      text-decoration: underline;
+    }
+
+    .B1{
+      margin-left: 230px;
+      position:relative;
+      width: 129px;
+      height: 129px;
+      cursor: pointer;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 14px;
+      background-size: 130px;
+      background-image: url(./feltro1.jpg);
+    }
+
+    .B2{
+      margin-left: 10px;
+      position:relative;
+      width: 129px;
+      height: 129px;
+      cursor: pointer;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 14px;
+      background-size: 130px;
+      background-image: url(./feltro2.jpg);
+    }
+
+    .B3{
+      margin-left: 10px;
+      position:relative;
+      width: 129px;
+      height: 129px;
+      cursor: pointer;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 14px;
+      background-size: 175px;
+      background-image: url(./feltro3.jpg);
+    }
+
+    .B4{
+      margin-left: 10px;
+      position:relative;
+      width: 129px;
+      height: 129px;
+      cursor: pointer;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 14px;
+      background-size: 175px;
+      background-image: url(./feltro4.jpg);
+    }
+
+    .B5{
+      margin-left: 10px;
+      position:relative;
+      width: 129px;
+      height: 129px;
+      cursor: pointer;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 14px;
+      background-size: 210px;
+      background-image: url(./feltro5.jpg);
+    }
+
+    .B6{
+      margin-left: 10px;
+      position:relative;
+      width: 129px;
+      height: 129px;
+      cursor: pointer;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 14px;
+      background-size: 165px;
+      background-image: url(./feltro6.jpg);
+    }
+
+    .P1{
+      margin-left: 230px;
+      position:relative;
+      width: 129px;
+      height: 129px;
+      cursor: pointer;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 14px;
+      background-size: 150px;
+      background-image: url(./Pelucia1.jpg);
+    }
+
+    .P2{
+      margin-left: 10px;
+      position:relative;
+      width: 129px;
+      height: 129px;
+      cursor: pointer;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 14px;
+      background-size: 130px;
+      background-image: url(./Pelucia2.jpg);
+    }
+
+    .P3{
+      margin-left: 10px;
+      position:relative;
+      width: 129px;
+      height: 129px;
+      cursor: pointer;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 14px;
+      background-size: 175px;
+      background-image: url(./Pelucia3.jpg);
+    }
+
+    .P4{
+      margin-left: 10px;
+      position:relative;
+      width: 129px;
+      height: 129px;
+      cursor: pointer;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 14px;
+      background-size: 175px;
+      background-image: url(./Pelucia4.jpg);
+    }
+
+    .P5{
+      margin-left: 10px;
+      position:relative;
+      width: 129px;
+      height: 129px;
+      cursor: pointer;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 14px;
+      background-size: 210px;
+      background-image: url(./Pelucia5.jpg);
+    }
+
+    .P6{
+      margin-left: 10px;
+      position:relative;
+      width: 129px;
+      height: 129px;
+      cursor: pointer;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 14px;
+      background-size: 165px;
+      background-image: url(./Pelucia6.jpg);
+    }
+
+    .h2{
+      margin-left: 512px;
+    }
+
+    .Er{
+      margin-left: 483px;
+      background-image: url(./white-background-2.jpg);
+      font-size: 15px;
+    }
